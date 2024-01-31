@@ -44,6 +44,6 @@
 
 // Regex Method
 
-const DNAtoRNA = (dna) => dna.replace('T', 'U')
+const DNAtoRNA = (dna) => dna.replace(/T/g, 'U')
 
   console.log(DNAtoRNA('GCAT'));
